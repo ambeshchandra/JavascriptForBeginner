@@ -1,2 +1,5 @@
 let name = 'Hello Console';
-    console.log(name);
+
+name="Test";
+
+console.log(name);
