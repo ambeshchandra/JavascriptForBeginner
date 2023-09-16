@@ -1,12 +1,13 @@
 
+ 
 const options={
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '50534b77bfmsh93927d1a2694b95p1cd585jsna5d3df30bc88',
-        'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+       
       }
 };
 
+const getweather = (city)=>{
 let p = fetch("https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Patna", options)
 p.then((value)=>{
     return value.json()
@@ -27,3 +28,9 @@ p.then((value)=>{
 
     
 })
+}
+
+
+myButton.addEventListener("click",()=>{
+
+}
