@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="WeatherAPI.js" ></script>
+ 
 </head>
 <body>
-    <h1>Weather Details</h1>
+   
 <br/>
  
-City Name: <input type="text" id="myTextbox" />
+City Name: <input type="text" id="city" />
 <button id="myButton" type="submit">Search</button>
  
 
 <br/>
+<h1>Weather Details of City: <span id="cityname"></span></h1>
+
     <UL>
 
       <li>  Cloud_pct <span id="cloud_pct"></span></li>
@@ -48,6 +50,6 @@ City Name: <input type="text" id="myTextbox" />
 
    
 
-
+<script src="WeatherAPI.js" ></script>
 </body>
 </html>
